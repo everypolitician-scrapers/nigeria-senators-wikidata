@@ -9,6 +9,7 @@ en = WikiData::Category.new('Category:Members of the Senate (Nigeria)', 'en').me
      WikiData::Category.new('Category:Members of the Senate (Nigeria) from Sokoto State', 'en').member_titles |
      WikiData::Category.new('Category:People\'s Democratic Party members of the Senate (Nigeria)', 'en').member_titles |
      WikiData::Category.new('Category:Presidents of the Senate (Nigeria)', 'en').member_titles
+yo = WikiData::Category.new('Ẹ̀ka:Àwọn ọmọ Ilé Alàgbà ilẹ̀ Nàìjíríà', 'yo').member_titles
 
-EveryPolitician::Wikidata.scrape_wikidata(names: { en: en })
+EveryPolitician::Wikidata.scrape_wikidata(names: { en: en, yo: yo })
 
